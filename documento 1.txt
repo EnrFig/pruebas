@@ -5,3 +5,6 @@ no se si tengas un proyecto chico en html para subirlo
 mmmm el más cercano son los ejemplos que hicimos al principio
 si esta bien copialo aqui en esta carpeta
 Listo
+
+
+vamos a agregar contenido a este doc para que lo toeme como modificacion
