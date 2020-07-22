@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Prueba1</title>
+	<link rel="stylesheet" href="C:\Users\Enrique Figueroa\Desktop\Nueva carpeta\Ejempo\boostrap\css\bootstrap.css">
+	<script type="text/javascript" src="C:\Users\Enrique Figueroa\Desktop\Nueva carpeta\Ejempo\jquery\jquery.min.js"></script><script type="text/javascript" src="C:\Users\Enrique Figueroa\Desktop\Nueva carpeta\Ejempo\jquery\jquery.min.js"></script>
+	<script type="text/javascript" src="C:\Users\Enrique Figueroa\Desktop\Nueva carpeta\Ejempo\code.js"></script>
+	<script type="text/javascript" src="C:\Users\Enrique Figueroa\Desktop\Nueva carpeta\Ejempo\boostrap\js\bootstrap.min.js"></script>
+	<style>
+	#form1{
+		margin-left: 10%;
+	}
+	</style>
+	
+	<script type="text/javascript">
+		var nombre = $["#name"].var();
+		var apellidos = $["#ape"].var();
+		//ap_p ap_m
+		var direccion = $["#dir"].var();
+		var ciudad = $["#ciu"].var();
+		//pais
+		var edad = $["#edad"].var();
+		var fecha_n = $["#nac"].var();
+	
+		$("#bot").on("click", function(){
+			$["#dato"].text("Nombre: " + nombre + ". Apellidos: " + apellidos + ". Direccion: " + direccion + ". Ciudad: " + ciu + ". Edad: " + edad + ". Fecha de nacimiento: " + fecha_n);
+		});
+	</script>
+</head>
+
+<body>
+
+<br>
+<form>
+
+<div class="row">
+	<div class="col-12">
+		<div class="row">
+			<div class="col-1">
+			</div>
+			
+			<div class="col-3">
+				<label>Nombre:</label>
+				<input type="text" class="form-control" placeholder="nombre" maxlength="20" id="name"/>
+			</div>
+			<div class="col-3">
+				<label>Apellidos:</label>
+				<input type="text" class="form-control" placeholder="apellidos" maxlength="20" id="ape"/>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="row">
+			<div class="col-1">
+			</div>
+			
+			<div class="col-6">
+				<label>Dirección:</label>
+				<input type="text" class="form-control" placeholder="dirección" maxlength="30" id="dir"/>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="row">
+			<div class="col-1">
+			</div>
+			
+			<div class="col-2">
+				<label>Ciudad: </label>
+		
+				<select placeholder="Seleccione:" class="form-control" id="ciu">
+					<option value="">San Andres Tuxtla</option>
+					<option value="">Catemaco</option>
+					<option value="">Santiago Tuxtla</option>
+				</select>
+			</div>	
+			<div class="col-1">
+				<label>Edad:</label>
+				<input type="number" class="form-control" placeholder="edad" min="0" max="30" id="edad"/>
+			</div>
+			<div class="col-3">
+				<label>Fecha de nacimiento:</label>		
+				<input type="date" class="form-control" id="nac">	
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="row">
+			<div class="col-1">
+			</div>
+			
+			<div class="col-1">
+				<button class="btn btn-primary" type="button" name="button" id="bot">Guardar</button>
+			</div>	
+		</div>
+		
+		
+	</div>
+</div>
+
+</form>
+
+<br><br>
+
+<label>Datos ingresados:</label>
+
+<label id="dato"></label>
+
+<table class="table table-hover table-bordered">
+	<thead class="thead-dark">
+		<tr>
+			<th>Id:</th>
+			<th>Nombre:</th>
+			<th>Apellidos:</th>
+			<th>Ciudad:</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="bg-primary">
+			<td>Nombre:</td>
+			<td>_</td>
+			<td>_</td>
+			<td>_</td>
+		</tr>
+		<tr class="bg-secondary">
+			<td>Apellidos:</td>
+			<td>_</td>
+			<td>_</td>
+			<td>_</td>
+		</tr>
+		<tr class="bg-success">
+			<td>Ciudad:</td>
+			<td>_</td>
+			<td>_</td>
+			<td>_</td>
+		</tr>
+		<tr class="bg-info">
+			<td>Edad:</td>
+			<td>_</td>
+			<td>_</td>
+			<td>_</td>
+		</tr>
+		<tr class="bg-warning">
+			<td>Fecha de nacimiento: </td>
+			<td>_</td>
+			<td>_</td>
+			<td>_</td>
+		</tr>
+		<tr class="bg-danger">
+			<td>Other: </td>
+			<td>_</td>
+			<td>_</td>
+			<td>_</td>
+		</tr>
+		<tr>
+			<td>Other: </td>
+			<td>_</td>
+			<td>_</td>
+			<td>_</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+
+</html>

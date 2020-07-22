@@ -1,0 +1,7 @@
+ejemplo de como subir archivos a repositorio
+en este caso vamos hacer con un bloc de notas
+no se si tengas un proyecto chico en html para subirlo
+
+mmmm el más cercano son los ejemplos que hicimos al principio
+si esta bien copialo aqui en esta carpeta
+Listo
