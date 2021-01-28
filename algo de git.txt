@@ -1,0 +1,41 @@
+comando basicos
+
+esto se hace solo la primera vez cuando creas un repositorio
+
+git init = inicias el servidor en local
+git add README.md <- con este agregas uno por uno 
+(git add . <- con este agregas todos los archivos) = agregas los archivos
+git commit -m "first commit" = agregas un comentario
+git remote add origin https://github.com/garaco/ProJET.git
+ https://github.com/EnrFig/pruebas.git = asignas el repositorio
+git push -u origin master = subes tus archivos
+
+
+https://github.com/EnrFig/pruebas.git <- este link es la direccion de tu repositorio
+
+bueno aqui ya subieron los archivos.
+
+
+en caso de que ya lo tengas y realices una modificacion o agregues un nuevo archivo se utilizan estos comandos
+
+git status = te muestra los archivos afectados ya sean que se hayan modificado, agregado o eliminado
+git add . = los abjuntamos
+git commit -m "comentario" = se agrega un comentario de referencia
+git push -u origin master = se suben los archivos
+
+
+ahora vamos hacer un ejemplo como si estuviera el repositorio compartido supongamos que tu compañero subio cambios
+(vamos a crear un archivo desde la web)
+
+vamos a usar 
+git pull = que es para descargar
+
+ya descargo el archivo
+
+ahora supongamos que cambiaste de compu y perdiste tus archivos pero los tienes en la nube 
+
+vamos a clonarlos
+
+el comando es 
+git clone https://github.com/garaco/ProJET.git
+https://github.com/EnrFig/pruebas.git (ruta de tu repositorio)
