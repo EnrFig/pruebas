@@ -1,3 +1,4 @@
+SLGO
 comando basicos
 
 esto se hace solo la primera vez cuando creas un repositorio
